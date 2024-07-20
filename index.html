@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Guitar Store</title>
+    <link rel="shortcut icon" type="image/x-icon" href="image/favicon.svg">
+
+
+    <!--for font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!--for font awesome cdn-->
+
+    <!--for linking css file-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--for linking css file-->
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@11/swiper-bundle.min.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <!--header section-->
+    <header class="header">
+        <a href="#" class="logo">
+            <i class="fa-solid fa-guitar fa-bounce" style="color: #be1212;"></i>
+            </i>Strum City
+        </a>
+
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#Features">Features</a>
+            <a href="#Products">Products</a>
+            <a href="#Categories">Categories</a>
+            <a href="#Reviews">Reviews</a>
+            <a href="#Blogs">Blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fa fa-bars" id="menu-button"></div>
+            <div class="fa fa-search" id="search-button"></div>
+            <div class="fa fa-shopping-cart" id="cart-button"></div>
+            <div class="fa fa-user" id="signin-button"></div>
+        </div>
+
+        <form class="search-form">
+            <input type="text" id="search-box" placeholder="Search Here...">
+            <label for="search-box" class="fa fa-search"></label>
+        </form>
+
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="image/jimDunlop1.png" width="150" />
+                <div class="content">
+                    <h3>jim dunlop 1.14mm <br> pick</h3>
+                    <span class="price">₹200/-</span>
+                    <span class="quantity">Qty : 2</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="image/epiphoneLP.png" height="120" />
+                <div class="content">
+                    <h3>epiphone les paul</h3>
+                    <span class="price">₹1,20,000</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa fa-trash"></i>
+                <img src="image/fenderAmp.png" />
+                <div class="content">
+                    <h3>fender 100W amp</h3>
+                    <span class="price">₹1,70,000/-</span>
+                    <span class="quantity">Qty : 1</span>
+                </div>
+            </div>
+
+            <div class="total">Total : ₹2,90,200 </div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+
+        <form action="#" class="login-form">
+            <h3>Login</h3>
+            <input type="email" placeholder="enter email" class="box">
+            <input type="password" placeholder="enter password" class="box">
+
+            <p>Forgot password? <a href="#"> Click Here </a></p>
+            <p>Don't have an account? <a href="#"> Create Now </a></p>
+
+            <input type="submit" value="Login" class="btn">
+        </form>
+
+    </header>
+    <!--header section-->
+
+    <!--Sale Banner section-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3><span> let's strum </span></h3>
+            <p> high quality <span>music</span> instruments </p>
+
+            <a href="#" class="btn"> explore </a>
+        </div>
+    </section>
+    <!--Sale Banner section-->
+
+    <!--Our features section-->
+    <section class="features" id="features">
+        <h1 class="heading"> Our <span> Features </span></h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="image/fenderCombo.png">
+                <h3>quality checked music instruments</h3>
+                <p>We ensure the quality of products</p>
+                <a href="#" class="btn">read more...</a>
+            </div>
+            <div class="box">
+                <img src="image/expert.png">
+                <h3>Expert Advice</h3>
+                <p>Our experts provide advice about what product would be suitable for your style of playing</p>
+                <a href="#" class="btn">read more...</a>
+            </div>
+            <div class="box">
+                <img src="image/payments.png">
+                <h3>Easy online payments</h3>
+                <p>UPI, credit card, debit card, internet banking available</p>
+                <a href="#" class="btn">read more...</a>
+            </div>
+        </div>
+    </section>
+    <!--Our features section-->
+ 
+    <!--Our products section-->
+    <section class="products" id="products">
+        <h1 class="heading"> Our <span>products</span></h1>
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image/gibsonLP.png">
+                    <h1>black gibson les paul</h1>
+                    <div class="price"> ₹2,20,000/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"> Add to cart </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/takamine12String.png">
+                    <h1>Takamine 12 String acoustic guitar</h1>
+                    <div class="price"> ₹1,80,000/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"> Add to cart </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/classical.png">
+                    <h1>Takamine nylon string guitar</h1>
+                    <div class="price"> ₹90,000/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"> Add to cart </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/strat.png">
+                    <h1>fender cherry stratocaster</h1>
+                    <div class="price"> ₹70,000/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn"> Add to cart </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/prs.png">
+                    <h1>blue prs</h1>
+                    <div class="price"> ₹1,10,000/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn"> Add to cart </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/jazzmaster.png">
+                    <h1>Fender jazzmaster</h1>
+                    <div class="price"> ₹1,01,000/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"> Add to cart </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/crafterAcoustic.png">
+                    <h1>crafter acoustic guitar</h1>
+                    <div class="price"> ₹45,000/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"> Add to cart </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/sg.png">
+                    <h1>gibson S G</h1>
+                    <div class="price"> ₹1,39,000/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn"> Add to cart </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/fenderAmp.png">
+                    <h1>fender 100W amplifier</h1>
+                    <div class="price"> ₹1,70,000/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"> Add to cart </a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="image/fenderPick.png">
+                    <h1>fender 1mm pick</h1>
+                    <div class="price"> ₹230/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"> Add to cart </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/marshallAmp.png">
+                    <h1>marshall 80W amplifier</h1>
+                    <div class="price"> ₹1,90,000/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"> Add to cart </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/epiphoneLP.png">
+                    <h1>epiphone les paul</h1>
+                    <div class="price"> ₹1,19,999/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn"> Add to cart </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/jimDunlop50.png">
+                    <h1>jim dunlop 0.5mm pick</h1>
+                    <div class="price"> ₹180/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"> Add to cart </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/jimDunlop1.png">
+                    <h1>jim dunlop 1.14mm guitar pick</h1>
+                    <div class="price"> ₹200/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn"> Add to cart </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/capo.png">
+                    <h1>ernie ball guitar capo</h1>
+                    <div class="price"> ₹1,120/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"> Add to cart </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/tuner.png">
+                    <h1>ortega chromatic tuner</h1>
+                    <div class="price"> ₹2,250/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"> Add to cart </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/stand.png">
+                    <h1>acoustic guitar stand</h1>
+                    <div class="price"> ₹2,390/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"> Add to cart </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/strap.png">
+                    <h1>Ernie ball guitar strap</h1>
+                    <div class="price"> ₹1,430/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half"></i>
+                    </div>
+                    <a href="#" class="btn"> Add to cart </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/cable.png">
+                    <h1>guitar cable</h1>
+                    <div class="price"> ₹890/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn"> Add to cart </a>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="image/pickup.png">
+                    <h1>fender humbucker guitar pickup</h1>
+                    <div class="price"> ₹3,380/- </div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <a href="#" class="btn"> Add to cart </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Our products section-->
+
+
+    <!--Categories section-->
+    <section class="categories" id="categories">
+        <h1 class="heading">product <span>categories</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="image/epiphoneLP.png">
+                <h3>Electric guitars</h3>
+                <p>premium electric guitars of different shapes</p>
+                <a href="#" class="btn">buy now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/crafterAcoustic.png">
+                <h3>Acoustic guitars</h3>
+                <p>steel and nylon <br> strings</p>
+                <a href="#" class="btn">buy now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/marshallAmp.png">
+                <h3>Amplifiers</h3>
+                <p>amplifiers with great <br> sound</p>
+                <a href="#" class="btn">buy now</a>
+            </div>
+
+            <div class="box">
+                <img src="image/capo.png">
+                <h3>essentials</h3>
+                <p>guitar essentials to get you <br> going</p>
+                <a href="#" class="btn">buy now</a>
+            </div>
+        </div>
+    </section>
+    <!--Categories section-->
+
+    <!--review section-->
+    <section class="review" id="review">
+        <h1 class="heading">customer <span>reviews</span></h1>
+        <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <h2>Fantastic Selection and Service</h2>
+                    <p>Strum City is a gem! I bought a new acoustic guitar, and the entire experience was seamless. Their website is well-organized with a vast selection of instruments and accessories. The detailed descriptions and customer reviews helped me make an informed choice. The guitar arrived promptly and in perfect condition. Shipping was prompt, and the monitors arrived in perfect condition. Highly recommend Strum City for any music lover!</p>
+                    <h3>Sarah T.</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <h2>Excellent Customer Support and Quick Delivery</h2>
+                    <p> I had a great experience shopping at Strum City. I ordered a digital piano for my daughter, and the process was smooth from start to finish. The support team was very responsive and helped me choose the right model for her needs. The piano arrived quickly and was well-packaged.Shipping was prompt, and the monitors arrived in perfect condition.  My daughter is thrilled with her new instrument. I will definitely return to Strum City for future purchases.</p>
+                    <h3>James R.</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <h2>Great Prices, Good Selection</h2>
+                    <p>Strum City offers a wide range of instruments at competitive prices. I bought a set of drumsticks and a practice pad, and I am pleased with my purchase. The website was easy to navigate, and checkout was a breeze. The only downside was the shipping cost for smaller items, which I found a bit high. Nevertheless, the products arrived on time and in perfect condition.Shipping was prompt, and the monitors arrived in perfect condition. I'll shop here again for sure.</p>
+                    <h3>Emily L.</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <h2>Outstanding Gear and Superb Service</h2>
+                    <p>Strum City is my go-to for all my musical needs. I recently purchased an electric guitar and amplifier, and I am extremely satisfied with both. The quality of the gear is excellent, and their prices are very competitive. The customer service team was very helpful in answering my questions and guiding me through the purchase process. Shipping was fast, and everything arrived safely. I highly recommend Strum City to musicians of all levels.</p>
+                    <h3>Michael B.</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <h2>Solid Shopping Experience</h2>
+                    <p>I ordered a new microphone and some accessories from Strum City, and overall, it was a good experience. The website is user-friendly, and the range of products is impressive. My order arrived on time and was well-packaged. The only minor issue was that one of the accessories was out of stock, but the customer service team promptly contacted me and offered an alternative. I appreciate their proactive approach and will definitely shop here again.</p>
+                    <h3>Lisa M.</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <h2>Exceptional Quality and Great Value</h2>
+                    <p>Strum City has exceeded my expectations! I purchased a set of high-quality studio monitors, and I am blown away by the sound clarity. The website provided detailed specifications, making it easy to compare different models. The prices are very reasonable, especially for the quality offered. The customer service team even followed up to ensure I was satisfied with my purchase. Strum City is now my preferred online store for all my music equipment needs.</p>
+                    <h3>Tom K.</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--review section-->
+
+    <!--blog section-->
+    <section class="blogs" id="blogs">
+        <h1 class="heading">our <span>blogs</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="image/thrash.png">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"></i> John D. </a>
+                        <a href="#"><i class="fa fa-calendar"></i> 9th July,2023</a>
+                    </div>
+                    <h3>Rise of Thrash Metal</h3>
+                    <p>It combined the speed and complexity of hardcore punk with the intensity and musicality of New Wave of British Heavy Metal (NWOBHM). Bands like Metallica, Slayer, Megadeth, and Anthrax—<br>collectively known as the "Big Four". Together, they crafted a sound that was powerful, innovative, and timeless.</p>
+                    <a href="#" class="btn"> read more </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/ledZep.png">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"></i> Phil D. </a>
+                        <a href="#"><i class="fa fa-calendar"></i> 1st Aug,2024</a>
+                    </div>
+                    <h3>The Architects of Hard Rock and Heavy Metal</h3>
+                    <p>a band that redefined rock music and laid the foundation for hard rock and heavy metal, remains one of the most influential and enduring acts in music history. Formed in 1968, the band comprised Robert Plant, Jimmy Page, John Paul Jones, and John Bonham.</p>
+                    <a href="#" class="btn"> read more </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/beatles.png">
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fa fa-user"></i> Michael S. </a>
+                        <a href="#"><i class="fa fa-calendar"></i> 23rd April,2024</a>
+                    </div>
+                    <h3>The Timeless Legacy of The Beatles</h3>
+                    <p>The Beatles, a name synonymous with the evolution of modern music, remain an unparalleled phenomenon in the annals of music history. From their humble beginnings<br> in Liverpool to their stratospheric rise to global stardom...</p>
+                    <a href="#" class="btn"> read more </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--blog section-->
+
+    <!--footer section-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3><i class="fa-solid fa-guitar" style="color: brown;"></i> Strum City </h3>
+                <p>Follow us on our social media handles</p>
+                <div class="share">
+                    <a href="#" class="fa-brands fa-instagram"></a>
+                    <a href="#" class="fa-brands fa-x-twitter"></a>
+                    <a href="#" class="fa-brands fa-facebook"></a>
+                    <a href="#" class="fa-brands fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Contact info </h3>
+                <a href="#" class="links"><i class="fa fa-phone"> </i>+91 1234567890 </a>
+                <a href="#" class="links"><i class="fa fa-phone"></i> +91 09867654321 </a>
+                <a href="#" class="links"><i class="fa fa-envelope"></i> support@strumcity.in </a>
+                <a href="#" class="links"><i class="fa fa-location-dot"></i> Banglore, Karnataka </a>
+            </div>
+
+            <div class="box">
+                <h3>Quick links </h3>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> home </a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> features </a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> products </a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> categories </a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> reviews </a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> blogs </a>
+            </div>
+
+            <div class="box">
+                <h3>Updates</h3>
+                <p>Subscribe for latest updates</p>
+                <input type="email" placeholder="Your Email" class="email">
+                <input type="submit" value="Subscribe" class="btn">
+                <img src="image/payment_methods.png" class="payment-img">
+            </div>
+        </div>
+
+        <div class="credits">Created by <span>STRUM CITY INC.</span> | All rights reserved.</div>
+    </section>
+    <!--footer section-->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
